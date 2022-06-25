@@ -415,12 +415,12 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print("\R [1] File Cloning")
+	print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
 		print(" [3] Create File")
 		print(" [4] 2004-5 Cloning")
 		print(" [5] 2009-8 Cloning")
-		print(" [E] Exit Programming\R")
+		print(" [E] Exit Programming\n")
 		VEERO =input(" Choose : ")
 		if VEERO in ["1", "01"]:
 			File()
@@ -441,9 +441,10 @@ class Main:
 	def old(self):
 		xx = 999999999
 		xxxx = 444444444
-		idx = "1000000" 
+		idx = "100000"
+        idx = "1000000" 
 		os.system('clear');print(logo)
-		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
+		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 90,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(xx,xxxx)
